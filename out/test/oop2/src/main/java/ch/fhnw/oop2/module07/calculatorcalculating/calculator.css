@@ -1,0 +1,50 @@
+GridPane{
+    -fx-background-color: red;
+    -fx-padding: 50px;
+    -fx-vgap: 50px;
+}
+
+.label{
+   -fx-background-color: white;
+   -fx-alignment: CENTER_RIGHT;
+   -fx-font-size: 50;
+   -fx-padding: 4 4 0 4;
+}
+
+.button{
+   -fx-font-size: 20;
+   -fx-background-color: white;
+   -fx-background-radius: 0;
+   -fx-background-insets: 1;
+}
+
+.button:hover{
+   -fx-background-color: lightgrey;
+   -fx-border-insets: 0;
+   -fx-border-radius: 0;
+}
+
+.button:armed{
+   -fx-background-color: darkgrey;
+   -fx-border-insets: 0;
+   -fx-border-radius: 0;
+}
+
+.button.equals{
+   -fx-background-color: derive(darkred, 80%);
+   -fx-text-fill: white;
+}
+
+.button.equals:hover{
+   -fx-background-color: derive(darkred,90%);
+   -fx-text-fill: white;
+}
+
+.button.equals:armed {
+    -fx-background-color: darkred;
+    -fx-text-fill: white;
+}
+
+#plusMinusButton {
+    -fx-font-size: 16;
+}

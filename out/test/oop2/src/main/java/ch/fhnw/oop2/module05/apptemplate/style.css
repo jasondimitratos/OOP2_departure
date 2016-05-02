@@ -1,0 +1,37 @@
+.button{
+    /*-fx-background-color: lightblue;*/
+    -fx-background-image: url("img/index.jpg");
+    -fx-background-radius: 8px;
+
+    -fx-text-fill:white;
+    -fx-font-size: 24px;
+
+    -fx-scale-x: 85%;
+    -fx-scale-y: 85%;
+}
+#zero{
+    -fx-scale-x: 93%;
+
+}
+#result{
+    -fx-scale-y: 93%;
+}
+.button:hover{
+
+    -fx-text-fill: lightblue;
+}
+.button:armed{
+    -fx-text-fill: blue;
+}
+.label{
+    -fx-background-image: url("img/index2.jpg");
+    -fx-text-fill:white;
+
+    -fx-font-size: 30px;
+    -fx-background-radius: 8px;
+    -fx-scale-x: 96%;
+    -fx-scale-y: 80%;
+
+}
+
+
