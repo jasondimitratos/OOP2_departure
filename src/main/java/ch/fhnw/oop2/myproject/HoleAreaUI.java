@@ -1,7 +1,7 @@
 package ch.fhnw.oop2.myproject;
 
 import ch.fhnw.oop2.myproject.CenterArea.TableAreaUI;
-import ch.fhnw.oop2.myproject.PM.DeparturePM;
+import ch.fhnw.oop2.myproject.PM.alldeparturesPM;
 import ch.fhnw.oop2.myproject.TopArea.TopAreaUI;
 import javafx.scene.layout.BorderPane;
 
@@ -9,9 +9,9 @@ import javafx.scene.layout.BorderPane;
 public class HoleAreaUI extends BorderPane {
 
 	TableAreaUI center;
-	DeparturePM pm;
+	alldeparturesPM pm;
 	TopAreaUI top;
-	public HoleAreaUI(DeparturePM pm ) {
+	public HoleAreaUI(alldeparturesPM pm ) {
 		this.pm=pm;
 		initializeControls();
 		layoutControls();

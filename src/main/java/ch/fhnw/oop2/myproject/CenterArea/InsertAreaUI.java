@@ -1,5 +1,6 @@
 package ch.fhnw.oop2.myproject.CenterArea;
 
+import ch.fhnw.oop2.myproject.PM.alldeparturesPM;
 import javafx.geometry.Insets;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
@@ -8,8 +9,6 @@ import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.RowConstraints;
-
-import ch.fhnw.oop2.myproject.PM.DeparturePM;
 
 
 public class InsertAreaUI extends GridPane {
@@ -27,9 +26,9 @@ public class InsertAreaUI extends GridPane {
 	private TextField gleisEing;
 	private TextArea zwischenhalteEing;
 
-	private final DeparturePM pm;
+	private final alldeparturesPM pm;
 
-	public InsertAreaUI(DeparturePM pm) {
+	public InsertAreaUI(alldeparturesPM pm) {
 		this.pm=pm;
 		initializeControls();
 		layoutControls();
@@ -87,10 +86,6 @@ public class InsertAreaUI extends GridPane {
 	}
 
 	private void addBindings() {
-		abfahrtTimeEing.textProperty().bindBidirectional(pm.departureTimeProperty());
-		destinationEing.textProperty().bindBidirectional(pm.trainDestinationProperty());
-		trainNameEing.textProperty().bindBidirectional(pm.trainNummerProperty());
-		gleisEing.textProperty().bindBidirectional(pm.gleisProperty());
-		zwischenhalteEing.textProperty().bindBidirectional(pm.zwischenhalteProperty());
+
 	}
 }

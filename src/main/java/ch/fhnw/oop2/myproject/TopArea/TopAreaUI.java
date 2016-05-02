@@ -1,6 +1,6 @@
 package ch.fhnw.oop2.myproject.TopArea;
 
-import ch.fhnw.oop2.myproject.PM.DeparturePM;
+import ch.fhnw.oop2.myproject.PM.alldeparturesPM;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
@@ -21,9 +21,9 @@ public class TopAreaUI extends HBox {
 	TextField search;
 
 
-	private final DeparturePM pm;
+	private final alldeparturesPM pm;
 
-	public TopAreaUI(DeparturePM pm) {
+	public TopAreaUI(alldeparturesPM pm) {
 		this.pm=pm;
 		initializeControls();
 		layoutControls();
