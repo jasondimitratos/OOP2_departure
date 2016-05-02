@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ch.fhnw.oop2.myproject.led.skin;
+package ch.fhnw.oop2.myproject.UIElements.led.skin;
 
 import javafx.scene.control.Skin;
 import javafx.scene.control.SkinBase;
@@ -24,7 +24,7 @@ import javafx.scene.effect.InnerShadow;
 import javafx.scene.layout.Region;
 import javafx.scene.paint.Color;
 
-import ch.fhnw.oop2.led.Led;
+import ch.fhnw.oop2.myproject.UIElements.led.Led;
 
 /**
  * Created by

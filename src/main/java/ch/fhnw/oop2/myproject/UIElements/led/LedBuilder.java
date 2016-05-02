@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ch.fhnw.oop2.myproject.led;
+package ch.fhnw.oop2.myproject.UIElements.led;
 
 import java.util.HashMap;
 

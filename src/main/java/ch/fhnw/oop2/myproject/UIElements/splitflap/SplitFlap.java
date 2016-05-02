@@ -1,4 +1,4 @@
-package ch.fhnw.oop2.myproject.splitflap;
+package ch.fhnw.oop2.myproject.UIElements.splitflap;
 
 import java.util.ArrayList;
 import java.util.Arrays;

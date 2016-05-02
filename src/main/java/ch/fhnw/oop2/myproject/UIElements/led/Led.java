@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ch.fhnw.oop2.myproject.led;
+package ch.fhnw.oop2.myproject.UIElements.led;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -25,6 +25,7 @@ import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 
+import ch.fhnw.oop2.myproject.UIElements.led.skin.LedSkin;
 import javafx.application.Platform;
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.BooleanPropertyBase;
@@ -45,8 +46,6 @@ import javafx.scene.paint.Paint;
 
 import com.sun.javafx.css.converters.EnumConverter;
 import com.sun.javafx.css.converters.PaintConverter;
-
-import ch.fhnw.oop2.myproject.led.skin.LedSkin;
 
 /**
  * Created by

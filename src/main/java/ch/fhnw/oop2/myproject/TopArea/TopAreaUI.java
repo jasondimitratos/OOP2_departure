@@ -1,6 +1,6 @@
 package ch.fhnw.oop2.myproject.TopArea;
 
-import ch.fhnw.oop2.myproject.DeparturePM;
+import ch.fhnw.oop2.myproject.PM.DeparturePM;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;

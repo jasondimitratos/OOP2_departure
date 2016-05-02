@@ -1,6 +1,7 @@
 package ch.fhnw.oop2.myproject;
 
 import ch.fhnw.oop2.myproject.CenterArea.TableAreaUI;
+import ch.fhnw.oop2.myproject.PM.DeparturePM;
 import ch.fhnw.oop2.myproject.TopArea.TopAreaUI;
 import javafx.scene.layout.BorderPane;
 

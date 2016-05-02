@@ -1,7 +1,6 @@
 package ch.fhnw.oop2.myproject.CenterArea;
 
-import ch.fhnw.oop2.myproject.DeparturePM;
-import ch.fhnw.oop2.myproject.CenterArea.InsertArea.InsertAreaUI;
+import ch.fhnw.oop2.myproject.PM.DeparturePM;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;

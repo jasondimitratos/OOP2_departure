@@ -1,4 +1,4 @@
-package ch.fhnw.oop2.myproject;
+package ch.fhnw.oop2.myproject.PM;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;

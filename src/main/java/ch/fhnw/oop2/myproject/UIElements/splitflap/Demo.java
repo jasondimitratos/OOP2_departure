@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ch.fhnw.oop2.myproject.splitflap;
+package ch.fhnw.oop2.myproject.UIElements.splitflap;
 
 import java.util.Random;
 

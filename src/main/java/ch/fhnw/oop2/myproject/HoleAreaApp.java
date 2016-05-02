@@ -1,4 +1,5 @@
 package ch.fhnw.oop2.myproject;
+import ch.fhnw.oop2.myproject.PM.DeparturePM;
 import javafx.application.Application;
 import javafx.scene.Parent;
 import javafx.scene.Scene;

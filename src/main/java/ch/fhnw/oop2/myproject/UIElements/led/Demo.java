@@ -14,13 +14,12 @@
  * limitations under the License.
  */
 
-package ch.fhnw.oop2.myproject.led;
+package ch.fhnw.oop2.myproject.UIElements.led;
 
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
-import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 /**
