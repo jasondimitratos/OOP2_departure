@@ -4,40 +4,15 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 /**
- * Created by jasondimitratos on 18.04.16.
+ * Created by jasondimitratos on 04.05.16.
  */
-public class Departure {
-    private StringProperty departureTime= new SimpleStringProperty("00:00");
+public class SelectedDeparturesPM {
+
+    private StringProperty departureTime= new SimpleStringProperty();
     private StringProperty trainDestination= new SimpleStringProperty();
     private StringProperty trainNummer= new SimpleStringProperty();
     private StringProperty gleis= new SimpleStringProperty();
     private StringProperty zwischenhalte= new SimpleStringProperty();
-
-
-    public Departure(String[] line) {
-        setDepartureTime(line[1]);
-        setTrainDestination(line[3]);
-        setTrainNummer(line[2]);
-        if(line[5].equals("-1")){
-            setGleis("");
-        }else{
-            setGleis(line[5]);
-        }
-
-        setZwischenhalte(line[4]);
-
-    }
-    public String infoAsLine() {
-        return String.join("\t",
-                getDepartureTime(),
-                getTrainDestination(),
-                getTrainNummer(),
-                getGleis(),
-                getZwischenhalte()
-        );
-    }
-
-    //getters and setters
 
     public String getDepartureTime() {
         return departureTime.get();

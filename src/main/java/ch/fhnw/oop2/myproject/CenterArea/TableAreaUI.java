@@ -1,6 +1,7 @@
 package ch.fhnw.oop2.myproject.CenterArea;
 
 import ch.fhnw.oop2.myproject.PM.Departure;
+import ch.fhnw.oop2.myproject.PM.SelectedDeparturesPM;
 import ch.fhnw.oop2.myproject.PM.alldeparturesPM;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TableColumn;
@@ -10,19 +11,18 @@ import javafx.scene.control.TableView;
 public class TableAreaUI extends SplitPane {
 
 
-
 	private TableView table;
 	private TableColumn LEDCol;
 	private TableColumn<Departure,String> AbfahrtCol;
 	private TableColumn<Departure,String> nachCol;
 	private TableColumn<Departure,String> gleisCol;
-
 	private InsertAreaUI rechts;
-
 	private final alldeparturesPM pm;
+	private final SelectedDeparturesPM spm;
 
-	public TableAreaUI(alldeparturesPM pm) {
+	public TableAreaUI(alldeparturesPM pm, SelectedDeparturesPM spm) {
 		this.pm=pm;
+		this.spm=spm;
 		initializeControls();
 		layoutControls();
 		addEventHandlers();
@@ -33,13 +33,14 @@ public class TableAreaUI extends SplitPane {
 
 
 	private void initializeControls() {
+
 		table= new TableView(pm.getResulate());
 		LEDCol = new TableColumn(" ");
 
 		AbfahrtCol = new TableColumn("Abfahrt");
 		nachCol = new TableColumn("nach");
 		gleisCol = new TableColumn("Gleis");
-		rechts=new InsertAreaUI(pm);
+		rechts=new InsertAreaUI(pm,spm);
 
 
 		AbfahrtCol.setCellValueFactory(cell -> cell.getValue().departureTimeProperty());
@@ -58,7 +59,21 @@ public class TableAreaUI extends SplitPane {
 	}
 
 	private void addEventHandlers() {
-
+		table.getSelectionModel().selectedItemProperty().addListener((observable, oldSelection, newSelection) -> {
+			if (newSelection != null) {
+				Departure select= (Departure) table.getSelectionModel().getSelectedItem();
+				spm.setDepartureTime(select.getDepartureTime());
+				spm.setGleis(select.getGleis());
+				spm.setTrainDestination(select.getTrainDestination());
+				spm.setZwischenhalte(select.getZwischenhalte());
+				spm.setTrainNummer(select.getTrainNummer());
+				select.gleisProperty().bindBidirectional(spm.gleisProperty());
+				select.trainDestinationProperty().bindBidirectional(spm.trainDestinationProperty());
+				select.trainNummerProperty().bindBidirectional(spm.trainNummerProperty());
+				select.zwischenhalteProperty().bindBidirectional(spm.zwischenhalteProperty());
+				select.departureTimeProperty().bindBidirectional(spm.departureTimeProperty());
+			}
+		});
 	}
 
 	private void addValueChangedListeners() {
