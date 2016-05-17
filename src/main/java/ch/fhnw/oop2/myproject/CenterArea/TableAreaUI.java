@@ -59,27 +59,32 @@ public class TableAreaUI extends SplitPane {
 	}
 
 	private void addEventHandlers() {
-		table.getSelectionModel().selectedItemProperty().addListener((observable, oldSelection, newSelection) -> {
-			if (newSelection != null) {
-				Departure select= (Departure) table.getSelectionModel().getSelectedItem();
-				spm.setDepartureTime(select.getDepartureTime());
-				spm.setGleis(select.getGleis());
-				spm.setTrainDestination(select.getTrainDestination());
-				spm.setZwischenhalte(select.getZwischenhalte());
-				spm.setTrainNummer(select.getTrainNummer());
-				select.gleisProperty().bindBidirectional(spm.gleisProperty());
-				select.trainDestinationProperty().bindBidirectional(spm.trainDestinationProperty());
-				select.trainNummerProperty().bindBidirectional(spm.trainNummerProperty());
-				select.zwischenhalteProperty().bindBidirectional(spm.zwischenhalteProperty());
-				select.departureTimeProperty().bindBidirectional(spm.departureTimeProperty());
-			}
-		});
+
+
 	}
 
 	private void addValueChangedListeners() {
+
 	}
 
 	private void addBindings() {
+		table.getFocusModel().focusedItemProperty().addListener((observable, oldValue, newValue) -> {
+			if (newValue!=null){
+				spm.departureTimeProperty().unbindBidirectional(((Departure)oldValue).departureTimeProperty());
+				spm.departureTimeProperty().bindBidirectional(((Departure)newValue).departureTimeProperty());
 
+				spm.trainDestinationProperty().unbindBidirectional(((Departure)oldValue).trainDestinationProperty());
+				spm.trainDestinationProperty().bindBidirectional(((Departure)newValue).trainDestinationProperty());
+
+				spm.trainNummerProperty().unbindBidirectional(((Departure)oldValue).trainNummerProperty());
+				spm.trainNummerProperty().bindBidirectional(((Departure)newValue).trainNummerProperty());
+
+				spm.gleisProperty().unbindBidirectional(((Departure)oldValue).gleisProperty());
+				spm.gleisProperty().bindBidirectional(((Departure)newValue).gleisProperty());
+
+				spm.zwischenhalteProperty().unbindBidirectional(((Departure)oldValue).zwischenhalteProperty());
+				spm.zwischenhalteProperty().bindBidirectional(((Departure)newValue).zwischenhalteProperty());
+			}
+		});
 	}
 }
