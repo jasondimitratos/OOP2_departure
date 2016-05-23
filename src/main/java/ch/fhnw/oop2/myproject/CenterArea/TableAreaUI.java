@@ -36,7 +36,7 @@ public class TableAreaUI extends SplitPane {
 
 	private void initializeControls() {
 
-		table= new TableView(pm.getResulate());
+		table= new TableView(pm.getFilteredList());
 		LEDCol = new TableColumn(" ");
 
 		AbfahrtCol = new TableColumn("Abfahrt");

@@ -66,6 +66,12 @@ public class TopAreaUI extends HBox {
 				add.setStyle("-fx-text-fill: red");
 			});
 			add.setOnMouseReleased(event -> add.setStyle("-fx-text-fill: white"));
+
+			search.setOnKeyPressed(event -> {
+				String textToSearch= search.getText().toLowerCase();
+				pm.getFilteredList().setPredicate(departure -> departure.getTrainDestination().toLowerCase().equals(textToSearch));
+			});
+
 	}
 
 	private void addValueChangedListeners() {
