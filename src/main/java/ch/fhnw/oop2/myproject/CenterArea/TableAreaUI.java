@@ -11,7 +11,7 @@ import javafx.scene.control.TableView;
 public class TableAreaUI extends SplitPane {
 
 
-	private TableView table;
+	private TableView<Departure> table;
 	private TableColumn LEDCol;
 	private TableColumn<Departure,String> AbfahrtCol;
 	private TableColumn<Departure,String> nachCol;
@@ -66,31 +66,10 @@ public class TableAreaUI extends SplitPane {
 	}
 
 	private void addValueChangedListeners() {
-
+		table.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> pm.setSelectedDeparture( newValue));
 	}
 
 	private void addBindings() {
-		table.getFocusModel().focusedItemProperty().addListener((observable, oldValue, newValue) -> {
-			if (newValue!=null){
-				spm.departureTimeProperty().unbindBidirectional(((Departure)oldValue).departureTimeProperty());
-				spm.departureTimeProperty().bindBidirectional(((Departure)newValue).departureTimeProperty());
 
-				spm.trainDestinationProperty().unbindBidirectional(((Departure)oldValue).trainDestinationProperty());
-				spm.trainDestinationProperty().bindBidirectional(((Departure)newValue).trainDestinationProperty());
-
-				spm.trainNummerProperty().unbindBidirectional(((Departure)oldValue).trainNummerProperty());
-				spm.trainNummerProperty().bindBidirectional(((Departure)newValue).trainNummerProperty());
-
-				spm.gleisProperty().unbindBidirectional(((Departure)oldValue).gleisProperty());
-				spm.gleisProperty().bindBidirectional(((Departure)newValue).gleisProperty());
-
-				spm.zwischenhalteProperty().unbindBidirectional(((Departure)oldValue).zwischenhalteProperty());
-				spm.zwischenhalteProperty().bindBidirectional(((Departure)newValue).zwischenhalteProperty());
-			}
-		});
-	}
-
-	public Departure getFocusedRow(){
-		return (Departure) table.getFocusModel().focusedItemProperty().get();
 	}
 }

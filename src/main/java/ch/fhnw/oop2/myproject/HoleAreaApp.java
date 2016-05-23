@@ -11,8 +11,8 @@ public class HoleAreaApp extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		alldeparturesPM pm= new alldeparturesPM();
 		SelectedDeparturesPM spm= new SelectedDeparturesPM();
+		alldeparturesPM pm= new alldeparturesPM(spm);
 		Parent rootPanel = new HoleAreaUI(pm,spm);
 
 		Scene scene = new Scene(rootPanel);

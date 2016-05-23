@@ -41,7 +41,7 @@ public class HoleAreaUI extends BorderPane {
 
 	private void addEventHandlers() {
 		top.getDelete().setOnMousePressed(event -> {
-			pm.deleteDeparture(center.getFocusedRow());
+			pm.deleteDeparture();
 			top.getDelete().setStyle("-fx-text-fill: red");
 		});
 		top.getDelete().setOnMouseReleased(event -> top.getDelete().setStyle("-fx-text-fill: white"));

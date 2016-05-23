@@ -1,5 +1,7 @@
 package ch.fhnw.oop2.myproject.PM;
 
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import javafx.collections.FXCollections;
@@ -27,11 +29,43 @@ public class alldeparturesPM {
 
     private final StringProperty applicationTitle = new SimpleStringProperty("Departure App");
 
+    private final ObjectProperty<Departure> selectedDeparture = new SimpleObjectProperty<>();
+
     private final ObservableList<Departure> departures = FXCollections.observableArrayList();
 
-    public alldeparturesPM() {
+    private final ObservableList<Departure> changes= FXCollections.observableArrayList();
+    private SelectedDeparturesPM spm;
+
+    public alldeparturesPM(SelectedDeparturesPM spm) {
+        this.spm = spm;
         departures.addAll(readFromFile());
+
+        selectedDeparture.addListener((observable, oldValue, newValue) -> {
+            if(oldValue != null){
+                spm.departureTimeProperty().unbindBidirectional(((Departure)oldValue).departureTimeProperty());
+                spm.trainDestinationProperty().unbindBidirectional(((Departure)oldValue).trainDestinationProperty());
+                spm.trainNummerProperty().unbindBidirectional(((Departure)oldValue).trainNummerProperty());
+                spm.gleisProperty().unbindBidirectional(((Departure)oldValue).gleisProperty());
+                spm.zwischenhalteProperty().unbindBidirectional(((Departure)oldValue).zwischenhalteProperty());
+            }
+            if(newValue != null){
+                spm.departureTimeProperty().bindBidirectional(((Departure)newValue).departureTimeProperty());
+
+                spm.trainDestinationProperty().bindBidirectional(((Departure)newValue).trainDestinationProperty());
+
+                spm.trainNummerProperty().bindBidirectional(((Departure)newValue).trainNummerProperty());
+
+                spm.gleisProperty().bindBidirectional(((Departure)newValue).gleisProperty());
+
+                spm.zwischenhalteProperty().bindBidirectional(((Departure)newValue).zwischenhalteProperty());
+
+            }
+
+        });
+
     }
+
+
 
 
     public void save() {
@@ -83,12 +117,27 @@ public class alldeparturesPM {
         return departures;
     }
 
+    public ObservableList<Departure> getChanges() {
+        return changes;
+    }
+
     public void addDeparture(){
         departures.add(new Departure());
     }
 
-    public void deleteDeparture(Departure toBeDeleted){
-        departures.remove(toBeDeleted);
+    public void deleteDeparture(){
+        departures.remove(getSelectedDeparture());
     }
 
+    public Departure getSelectedDeparture() {
+        return selectedDeparture.get();
+    }
+
+    public ObjectProperty<Departure> selectedDepartureProperty() {
+        return selectedDeparture;
+    }
+
+    public void setSelectedDeparture(Departure selectedDeparture) {
+        this.selectedDeparture.set(selectedDeparture);
+    }
 }
