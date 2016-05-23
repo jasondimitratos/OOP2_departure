@@ -28,6 +28,8 @@ public class TableAreaUI extends SplitPane {
 		addEventHandlers();
 		addValueChangedListeners();
 		addBindings();
+		table.getSelectionModel().select(1);
+		table.getSelectionModel().select(0);
 	}
 
 

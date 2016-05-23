@@ -55,6 +55,11 @@ public class TopAreaUI extends HBox {
 	}
 
 	private void addEventHandlers() {
+			save.setOnMousePressed(event -> {
+				pm.save();
+				save.setStyle("-fx-text-fill: red");
+			});
+			save.setOnMouseReleased(event -> save.setStyle("-fx-text-fill: white"));
 
 	}
 

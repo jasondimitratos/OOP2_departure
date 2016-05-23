@@ -36,11 +36,12 @@ public class alldeparturesPM {
 
     public void save() {
         try (BufferedWriter writer = Files.newBufferedWriter(getPath(FILE_NAME, true))) {
-            writer.write("AbfahrtsZeit\tDestination\tZugNummer\tGleis\tZwischenhalte");
+            writer.write("#id"+TAB+"Uhrzeit"+TAB+"Zugnummer"+TAB+"in Richtung"+TAB+"über"+TAB+"Gleis");
             writer.newLine();
+            int i=0;
             departures.stream().forEach(resultat -> {
                 try {
-                    writer.write(resultat.infoAsLine());
+                    writer.write(resultat.infoAsLine()+";");
                     writer.newLine();
                 } catch (IOException e) {
                     throw new IllegalStateException(e);

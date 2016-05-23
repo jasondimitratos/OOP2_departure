@@ -1,5 +1,5 @@
-#id;Uhrzeit;Zugnummer;in Richtung;über;Gleis;
-0;00:00;IC 747;Zürich HB;Olten  00:00 - Aarau  00:08 - Zürich HB  00:33;-1;
+#id;Uhrzeit;Zugnummer;in Richtung;über;Gleis
+0;12:00;IC 747;Zürich HB;Olten  00:00 - Aarau  00:08 - Zürich HB  00:33;-1;
 1;00:04;IC 746;Bern;Olten  00:04 - Bern  00:31;-1;
 2;00:33;EC 158;Basel SBB;Olten  00:33 - Liestal  00:48 - Basel SBB  00:59;10;
 3;00:33;IC 849;Zürich HB;Olten  00:33 - Zürich HB  01:04;-1;

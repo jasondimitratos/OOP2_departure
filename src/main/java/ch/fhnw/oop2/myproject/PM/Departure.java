@@ -7,6 +7,7 @@ import javafx.beans.property.StringProperty;
  * Created by jasondimitratos on 18.04.16.
  */
 public class Departure {
+    private StringProperty id= new SimpleStringProperty();
     private StringProperty departureTime= new SimpleStringProperty("00:00");
     private StringProperty trainDestination= new SimpleStringProperty();
     private StringProperty trainNummer= new SimpleStringProperty();
@@ -15,6 +16,7 @@ public class Departure {
 
 
     public Departure(String[] line) {
+        setId(line[0]);
         setDepartureTime(line[1]);
         setTrainDestination(line[3]);
         setTrainNummer(line[2]);
@@ -28,16 +30,35 @@ public class Departure {
 
     }
     public String infoAsLine() {
-        return String.join("\t",
+        String gleis=getGleis();
+        if(gleis==null||gleis.equals("")){
+             gleis="-1";
+        }
+        return String.join(";",
+                getId(),
                 getDepartureTime(),
-                getTrainDestination(),
                 getTrainNummer(),
-                getGleis(),
-                getZwischenhalte()
+                getTrainDestination(),
+                getZwischenhalte(),
+                gleis
         );
+
     }
 
     //getters and setters
+
+
+    public String getId() {
+        return id.get();
+    }
+
+    public StringProperty idProperty() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id.set(id);
+    }
 
     public String getDepartureTime() {
         return departureTime.get();
@@ -76,7 +97,9 @@ public class Departure {
     }
 
     public String getGleis() {
-        return gleis.get();
+            return gleis.get();
+
+
     }
 
     public StringProperty gleisProperty() {
