@@ -11,7 +11,7 @@ import javafx.scene.layout.VBox;
 public class TopAreaUI extends HBox {
 	Button save;
 	Button add;
-	Button delete;
+	public Button delete;
 	Button back;
 	Button forward;
 	Button train;

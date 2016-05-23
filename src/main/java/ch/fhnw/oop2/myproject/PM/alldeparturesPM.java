@@ -86,6 +86,9 @@ public class alldeparturesPM {
     public void addDeparture(){
         departures.add(new Departure());
     }
-    
+
+    public void deleteDeparture(Departure toBeDeleted){
+        departures.remove(toBeDeleted);
+    }
 
 }

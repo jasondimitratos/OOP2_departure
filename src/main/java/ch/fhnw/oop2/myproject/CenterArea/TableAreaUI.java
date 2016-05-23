@@ -89,4 +89,8 @@ public class TableAreaUI extends SplitPane {
 			}
 		});
 	}
+
+	public Departure getFocusedRow(){
+		return (Departure) table.getFocusModel().focusedItemProperty().get();
+	}
 }
