@@ -29,6 +29,9 @@ public class Departure {
         setZwischenhalte(line[4]);
 
     }
+    public Departure(){
+
+    }
     public String infoAsLine() {
         String gleis=getGleis();
         if(gleis==null||gleis.equals("")){

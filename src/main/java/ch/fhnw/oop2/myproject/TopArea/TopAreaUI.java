@@ -61,6 +61,11 @@ public class TopAreaUI extends HBox {
 			});
 			save.setOnMouseReleased(event -> save.setStyle("-fx-text-fill: white"));
 
+			add.setOnMousePressed(event -> {
+				pm.addDeparture();
+				add.setStyle("-fx-text-fill: red");
+			});
+			add.setOnMouseReleased(event -> add.setStyle("-fx-text-fill: white"));
 	}
 
 	private void addValueChangedListeners() {

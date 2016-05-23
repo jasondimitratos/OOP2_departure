@@ -83,4 +83,9 @@ public class alldeparturesPM {
         return departures;
     }
 
+    public void addDeparture(){
+        departures.add(new Departure());
+    }
+    
+
 }
