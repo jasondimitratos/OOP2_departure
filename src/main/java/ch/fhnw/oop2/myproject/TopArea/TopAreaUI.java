@@ -67,9 +67,24 @@ public class TopAreaUI extends HBox {
 			});
 			add.setOnMouseReleased(event -> add.setStyle("-fx-text-fill: white"));
 
-			search.setOnKeyPressed(event -> {
-				String textToSearch= search.getText().toLowerCase();
-				pm.getFilteredList().setPredicate(departure -> departure.getTrainDestination().toLowerCase().equals(textToSearch));
+			search.setOnKeyReleased(event -> {
+
+				pm.getFilteredList().setPredicate(departure -> {
+
+					String toBeSearched=departure.getTrainDestination().toLowerCase();
+					String textToSearch= search.getText().toLowerCase();
+					boolean equals=true;
+					int i=0;
+					while( i < textToSearch.length()&&i<toBeSearched.length()) {
+							if (toBeSearched.charAt(i) != textToSearch.charAt(i))
+								return false;
+					i++;
+					}
+
+
+
+				return equals;
+				});
 			});
 
 	}
