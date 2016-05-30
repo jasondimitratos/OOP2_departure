@@ -71,7 +71,6 @@ public class alldeparturesPM {
         try (BufferedWriter writer = Files.newBufferedWriter(getPath(FILE_NAME, true))) {
             writer.write("#id"+TAB+"Uhrzeit"+TAB+"Zugnummer"+TAB+"in Richtung"+TAB+"über"+TAB+"Gleis");
             writer.newLine();
-            int i=0;
             departures.stream().forEach(resultat -> {
                 try {
                     writer.write(resultat.infoAsLine()+";");
