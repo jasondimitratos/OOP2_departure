@@ -1,11 +1,15 @@
 package ch.fhnw.oop2.myproject.CenterArea;
 
+import ch.fhnw.oop2.myproject.CenterArea.view.Watch;
 import ch.fhnw.oop2.myproject.PM.Departure;
 import ch.fhnw.oop2.myproject.PM.SelectedDeparturesPM;
+import ch.fhnw.oop2.myproject.PM.WatchPM;
 import ch.fhnw.oop2.myproject.PM.alldeparturesPM;
+import javafx.scene.Node;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.layout.VBox;
 
 
 public class TableAreaUI extends SplitPane {
@@ -16,9 +20,10 @@ public class TableAreaUI extends SplitPane {
 	private TableColumn<Departure,String> AbfahrtCol;
 	private TableColumn<Departure,String> nachCol;
 	private TableColumn<Departure,String> gleisCol;
-	private InsertAreaUI rechts;
+	private Node rechts;
 	private final alldeparturesPM pm;
 	private final SelectedDeparturesPM spm;
+
 
 	public TableAreaUI(alldeparturesPM pm, SelectedDeparturesPM spm) {
 		this.pm=pm;
@@ -40,9 +45,19 @@ public class TableAreaUI extends SplitPane {
 		LEDCol = new TableColumn(" ");
 
 		AbfahrtCol = new TableColumn("Abfahrt");
+
 		nachCol = new TableColumn("nach");
 		gleisCol = new TableColumn("Gleis");
-		rechts=new InsertAreaUI(pm,spm);
+		VBox watch = new VBox(new Watch(new WatchPM()));
+		watch.setPrefSize(75,75);
+		watch.setMinSize(75,75);
+		watch.setMaxSize(75,75);
+		watch.setStyle("-fx-border-color: #033bff");
+
+
+		VBox vBox = new VBox(watch, new InsertAreaUI(pm, spm));
+		vBox.setStyle("-fx-border-color: red");
+		rechts= vBox;
 
 
 		AbfahrtCol.setCellValueFactory(cell -> cell.getValue().departureTimeProperty());

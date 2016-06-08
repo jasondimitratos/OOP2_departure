@@ -37,14 +37,11 @@ public class HoleAreaUI extends BorderPane {
 		setCenter(center);
 
 
+
 	}
 
 	private void addEventHandlers() {
-		top.getDelete().setOnMousePressed(event -> {
-			pm.deleteDeparture();
-			top.getDelete().setStyle("-fx-text-fill: red");
-		});
-		top.getDelete().setOnMouseReleased(event -> top.getDelete().setStyle("-fx-text-fill: white"));
+
 	}
 
 	private void addValueChangedListeners() {

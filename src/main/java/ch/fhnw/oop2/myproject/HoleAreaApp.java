@@ -14,7 +14,7 @@ public class HoleAreaApp extends Application {
 		SelectedDeparturesPM spm= new SelectedDeparturesPM();
 		alldeparturesPM pm= new alldeparturesPM(spm);
 		Parent rootPanel = new HoleAreaUI(pm,spm);
-
+		rootPanel.setStyle("-fx-min-width:500px ");
 		Scene scene = new Scene(rootPanel);
 
 	//	String fonts = getClass().getResource("fonts.css").toExternalForm();
@@ -24,6 +24,9 @@ public class HoleAreaApp extends Application {
 		scene.getStylesheets().add(stylesheet);
 
 		primaryStage.setScene(scene);
+		primaryStage.setMinWidth(800);
+		primaryStage.setMinHeight(550);
+
 
 		primaryStage.show();
 	}

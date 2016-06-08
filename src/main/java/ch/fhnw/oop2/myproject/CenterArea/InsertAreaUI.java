@@ -27,12 +27,17 @@ public class InsertAreaUI extends GridPane {
 	private TextField gleisEing;
 	private TextArea zwischenhalteEing;
 
+
 	private final alldeparturesPM pm;
 	private final SelectedDeparturesPM spm;
+
+
+
 
 	public InsertAreaUI(alldeparturesPM pm, SelectedDeparturesPM spm) {
 		this.pm=pm;
 		this.spm=spm;
+
 		initializeControls();
 		layoutControls();
 		addEventHandlers();
@@ -55,9 +60,11 @@ public class InsertAreaUI extends GridPane {
 		trainNameEing=new TextField();
 		gleisEing=new TextField();
 		zwischenhalteEing=new TextArea();
+
 	}
 
 	private void layoutControls() {
+
 		ColumnConstraints cc = new ColumnConstraints();
 		cc.setHgrow(Priority.ALWAYS);
 		getColumnConstraints().addAll(cc, cc, cc);
@@ -67,17 +74,21 @@ public class InsertAreaUI extends GridPane {
 		getRowConstraints().addAll(rc, rc, rc);
 
 		setMargin(zwischenhalteEing, new Insets(50, 0,0,0));
+		//myWatch.setMaxWidth(50);
 
-		add(abfahrt,0,0);
-		add(abfahrtTimeEing,1,0);
-		add(destination,0,1);
-		add(destinationEing,1,1);
-		add(trainNr,0,2);
-		add(trainNameEing,1,2);
-		add(gleis,0,3);
-		add(gleisEing,1,3);
-		add(zwischenhalte,0,4);
-		add(zwischenhalteEing,1,4);
+
+
+		add(abfahrt,0,1);
+		add(abfahrtTimeEing,1,1);
+		add(destination,0,2);
+		add(destinationEing,1,2);
+		add(trainNr,0,3);
+		add(trainNameEing,1,3);
+		add(gleis,0,4);
+		add(gleisEing,1,4);
+		add(zwischenhalte,0,5);
+		add(zwischenhalteEing,1,5);
+
 
 	}
 

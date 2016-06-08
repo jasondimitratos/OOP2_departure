@@ -45,6 +45,7 @@ public class TopAreaUI extends HBox {
 		pause = new Button("\uf04c");
 		play= new Button("\uf04b");
 		search =new TextField("Suchen");
+
 	}
 
 	private void layoutControls() {
@@ -86,7 +87,11 @@ public class TopAreaUI extends HBox {
 				return equals;
 				});
 			});
-
+		delete.setOnMousePressed(event -> {
+			pm.deleteDeparture();
+			delete.setStyle("-fx-text-fill: red");
+		});
+		delete.setOnMouseReleased(event -> delete.setStyle("-fx-text-fill: white"));
 	}
 
 	private void addValueChangedListeners() {
@@ -96,7 +101,7 @@ public class TopAreaUI extends HBox {
 
 	}
 
-	public Button getDelete(){
+	/*public Button getDelete(){
 		return delete;
-	}
+	}*/
 }
