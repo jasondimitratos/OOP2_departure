@@ -1,4 +1,4 @@
-package ch.fhnw.oop2.myproject.PM;
+package ch.fhnw.oop2.myproject.CenterArea.watch.PMs;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;

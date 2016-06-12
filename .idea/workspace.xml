@@ -2,34 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5034b8bb-8546-4581-825b-303eb6860035" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/Demo$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/Demo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/Led$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/Led$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/Led$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/Led$LedType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/Led$StyleableProperties$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/Led$StyleableProperties$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/Led$StyleableProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/Led.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/LedBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/skin/LedSkin$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/led/skin/LedSkin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/splitflap/Demo$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/splitflap/Demo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/splitflap/FlipClock$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/splitflap/FlipClock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/splitflap/SplitFlap$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/splitflap/SplitFlap$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/splitflap/SplitFlap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/splitflap/SplitFlapBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/UIElements/splitflap/SplitFlapImgFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/OOP2_departure/ch/fhnw/oop2/myproject/PM/olten.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/olten.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Minutenzeiger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Sekundenzeiger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Stundenzeiger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Watch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Zifferblatt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/PM/TimeUpdatePM$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/PM/TimeUpdatePM$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/PM/TimeUpdatePM$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/PM/TimeUpdatePM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/PM/WatchPM.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Minutenzeiger.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/Minutenzeiger.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Sekundenzeiger.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/Sekundenzeiger.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Stundenzeiger.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/Stundenzeiger.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Watch.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/Watch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Zifferblatt.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/Zifferblatt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/TimeUpdatePM.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/PMs/TimeUpdatePM.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/WatchPM.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/PMs/WatchPM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.class" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/OOP2_departure/ch/fhnw/oop2/myproject/PM/alldeparturesPMTest.class" afterPath="$PROJECT_DIR$/out/test/OOP2_departure/ch/fhnw/oop2/myproject/PM/alldeparturesPMTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/PM/olten.csv" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/PM/olten.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/DepartureTest.java" afterPath="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/DepartureTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/Styling/style.css" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/Styling/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesPMTest.java" afterPath="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesPMTest.java" />
     </list>
     <ignored path="OOP2_departure.iws" />
@@ -65,14 +59,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alldeparturesPMTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alldeparturesPMTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesPMTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="585">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/Styling/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,7 +166,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/olten.csv" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/workshop4/view/MainUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/workshop4/view/Watch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/Styling/style.css" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Minutenzeiger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Sekundenzeiger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Stundenzeiger.java" />
@@ -182,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/DepartureTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/alldeparturesPM.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesPMTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/Styling/style.css" />
       </list>
     </option>
   </component>
@@ -384,7 +388,137 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Styling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP2_departure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP2_departure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fhnw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP2_departure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP2_departure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fhnw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="CenterArea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP2_departure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP2_departure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fhnw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CenterArea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,7 +548,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM" />
+      <recent name="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/Styling" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ch.fhnw.oop2.myproject.CenterArea.watch.PMs" />
+      <recent name="ch.fhnw.oop2.myproject.CenterArea.watch" />
       <recent name="ch.fhnw.oop2.myproject" />
       <recent name="ch.fhnw.oop2.myproject.PM" />
       <recent name="ch.fhnw.oop2.myproject.CenterArea" />
@@ -426,14 +568,8 @@
       <recent name="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM" />
       <recent name="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/workshop4" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM" />
-      <recent name="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/Styling" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.alldeparturesPMTest">
+  <component name="RunManager" selected="Application.HoleAreaApp">
     <configuration default="false" name="HoleAreaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -477,7 +613,7 @@
     <configuration default="false" name="alldeparturesPMTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ch.fhnw.oop2.myproject.PM.*" />
+          <option name="PATTERN" value="ch.fhnw.oop2.myproject.CenterArea.watch.PMs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -503,7 +639,7 @@
     <configuration default="false" name="DepartureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ch.fhnw.oop2.myproject.PM.*" />
+          <option name="PATTERN" value="ch.fhnw.oop2.myproject.CenterArea.watch.PMs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -935,8 +1071,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.alldeparturesPMTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HoleAreaApp" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HoleAreaApp" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.alldeparturesPMTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.DepartureTest" />
         <item index="3" class="java.lang.String" itemvalue="Application.Demo" />
       </list>
@@ -969,7 +1105,7 @@
       <workItem from="1465457401096" duration="539000" />
       <workItem from="1465457953170" duration="6589000" />
       <workItem from="1465743818850" duration="285000" />
-      <workItem from="1465747415741" duration="1776000" />
+      <workItem from="1465747415741" duration="2183000" />
     </task>
     <servers />
   </component>
@@ -1006,7 +1142,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66448000" />
+    <option name="totallyTimeSpent" value="66855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="839" extended-state="0" />
@@ -1309,13 +1445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/Styling/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/Styling/font.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1323,35 +1452,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Minutenzeiger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/Minutenzeiger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Sekundenzeiger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/Sekundenzeiger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Stundenzeiger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/Stundenzeiger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Watch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/Watch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Zifferblatt.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/Zifferblatt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
@@ -1375,14 +1504,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/TimeUpdatePM.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/PMs/TimeUpdatePM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/WatchPM.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/watch/PMs/WatchPM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
@@ -1463,11 +1592,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesPMTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="585">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/Styling/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

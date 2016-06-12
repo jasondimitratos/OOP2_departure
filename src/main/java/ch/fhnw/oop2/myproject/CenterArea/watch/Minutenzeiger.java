@@ -1,10 +1,9 @@
-package ch.fhnw.oop2.myproject.CenterArea.view;
+package ch.fhnw.oop2.myproject.CenterArea.watch;
 
+import ch.fhnw.oop2.myproject.CenterArea.watch.PMs.WatchPM;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
-
-import ch.fhnw.oop2.myproject.PM.WatchPM;
 
 /**
  * Created by andreazirn on 05/05/16.

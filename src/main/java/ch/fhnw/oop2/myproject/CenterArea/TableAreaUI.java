@@ -1,9 +1,9 @@
 package ch.fhnw.oop2.myproject.CenterArea;
 
-import ch.fhnw.oop2.myproject.CenterArea.view.Watch;
+import ch.fhnw.oop2.myproject.CenterArea.watch.Watch;
 import ch.fhnw.oop2.myproject.PM.Departure;
 import ch.fhnw.oop2.myproject.PM.SelectedDeparturesPM;
-import ch.fhnw.oop2.myproject.PM.WatchPM;
+import ch.fhnw.oop2.myproject.CenterArea.watch.PMs.WatchPM;
 import ch.fhnw.oop2.myproject.PM.alldeparturesPM;
 import javafx.scene.Node;
 import javafx.scene.control.SplitPane;

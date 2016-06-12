@@ -16,11 +16,11 @@
  *
  */
 
-package ch.fhnw.oop2.myproject.CenterArea.view;
+package ch.fhnw.oop2.myproject.CenterArea.watch;
 
 
-import ch.fhnw.oop2.myproject.PM.WatchPM;
-import ch.fhnw.oop2.myproject.PM.TimeUpdatePM;
+import ch.fhnw.oop2.myproject.CenterArea.watch.PMs.TimeUpdatePM;
+import ch.fhnw.oop2.myproject.CenterArea.watch.PMs.WatchPM;
 import javafx.geometry.Insets;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.Region;

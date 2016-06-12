@@ -1,4 +1,4 @@
-package ch.fhnw.oop2.myproject.PM;
+package ch.fhnw.oop2.myproject.CenterArea.watch.PMs;
 
 import javafx.animation.*;
 import javafx.scene.transform.Rotate;

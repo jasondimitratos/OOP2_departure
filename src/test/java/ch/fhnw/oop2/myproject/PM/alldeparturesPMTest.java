@@ -37,7 +37,7 @@ public class alldeparturesPMTest {
 
         assertFalse(size1==myDepartures.getDepartures().size());
     }
-    
+
 
 
 
