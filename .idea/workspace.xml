@@ -2,30 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5034b8bb-8546-4581-825b-303eb6860035" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/DepartureTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesPMTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/olten.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/InsertAreaUI.class" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/InsertAreaUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.class" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Minutenzeiger.class" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Minutenzeiger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Sekundenzeiger.class" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Sekundenzeiger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Stundenzeiger.class" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Stundenzeiger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Watch.class" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Watch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Zifferblatt.class" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/CenterArea/view/Zifferblatt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/HoleAreaApp.class" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/HoleAreaApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/HoleAreaUI.class" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/HoleAreaUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/PM/alldeparturesPM.class" afterPath="$PROJECT_DIR$/out/production/OOP2_departure/ch/fhnw/oop2/myproject/PM/alldeparturesPM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/OOP2_departure.iml" afterPath="$PROJECT_DIR$/.idea/OOP2_departure.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/led/Demo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/led/Led.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/led/LedBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/led/skin/LedSkin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/splitflap/Demo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/splitflap/FlipClock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/splitflap/SplitFlap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/splitflap/SplitFlapBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/splitflap/SplitFlapImgFactory.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/InsertAreaUI.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/InsertAreaUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Minutenzeiger.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Minutenzeiger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Sekundenzeiger.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Sekundenzeiger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Stundenzeiger.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Stundenzeiger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Watch.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Watch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Zifferblatt.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Zifferblatt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/HoleAreaApp.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/HoleAreaApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/HoleAreaUI.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/HoleAreaUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/DepartureTest.java" afterPath="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/DepartureTest.java" />
     </list>
     <ignored path="OOP2_departure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +37,8 @@
       <file leaf-file-name="alldeparturesPM.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/alldeparturesPM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="510">
+              <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesPMTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +61,32 @@
       <file leaf-file-name="DepartureTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/DepartureTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+            <state relative-caret-position="345">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableAreaUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1181">
+              <caret line="83" column="75" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertAreaUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/InsertAreaUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,7 +97,7 @@
       <file leaf-file-name="Departure.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/Departure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="435">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,7 +109,7 @@
       <file leaf-file-name="HoleAreaApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/HoleAreaApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="150">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,14 +144,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/workshop4/view/MainUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/UIElements/workshop4/view/Watch.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/Styling/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/alldeparturesPM.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Minutenzeiger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Sekundenzeiger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Stundenzeiger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Watch.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/view/Zifferblatt.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/InsertAreaUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/Departure.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/SelectedDeparturesPM.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/TimeUpdatePM.java" />
@@ -150,8 +159,10 @@
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/HoleAreaApp.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesPM.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/DepartureTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesPMTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/alldeparturesPM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/DepartureTest.java" />
       </list>
     </option>
   </component>
@@ -161,8 +172,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="839" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -191,7 +203,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -325,9 +336,52 @@
               <option name="myItemId" value="OOP2_departure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fhnw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CenterArea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP2_departure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP2_departure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,7 +393,6 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -897,6 +950,7 @@
       <workItem from="1465457401096" duration="539000" />
       <workItem from="1465457953170" duration="6589000" />
       <workItem from="1465743818850" duration="285000" />
+      <workItem from="1465747415741" duration="752000" />
     </task>
     <servers />
   </component>
@@ -933,11 +987,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64672000" />
+    <option name="totallyTimeSpent" value="65424000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="839" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -947,11 +1001,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23700121" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23655914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28680557" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28680557" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -986,7 +1040,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23700121" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23655914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28680557" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1036,7 +1090,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,7 +1146,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1129,7 +1187,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,22 +1339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/InsertAreaUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/TopArea/TopAreaUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1337,20 +1381,50 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/Departure.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/HoleAreaApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/HoleAreaApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/InsertAreaUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/CenterArea/TableAreaUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1181">
+          <caret line="83" column="75" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/DepartureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/Departure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1360,17 +1434,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/alldeparturesPMTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/myproject/PM/DepartureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1379,8 +1443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/myproject/PM/alldeparturesPM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="510">
+          <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

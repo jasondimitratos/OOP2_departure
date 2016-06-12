@@ -20,4 +20,7 @@ public class DepartureTest {
         String StringSub= testSub.infoAsLine();
         assertEquals(StringSub,"0;12:00;Zürich;IC34;6;12:30 brugg");
     }
+
+    @
+
 }
