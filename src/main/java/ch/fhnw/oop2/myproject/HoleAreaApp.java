@@ -1,11 +1,12 @@
 package ch.fhnw.oop2.myproject;
 
-import ch.fhnw.oop2.myproject.PM.SelectedDeparturesPM;
-import ch.fhnw.oop2.myproject.PM.alldeparturesPM;
 import javafx.application.Application;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+
+import ch.fhnw.oop2.myproject.PM.SelectedDeparturesPM;
+import ch.fhnw.oop2.myproject.PM.alldeparturesPM;
 
 public class HoleAreaApp extends Application {
 

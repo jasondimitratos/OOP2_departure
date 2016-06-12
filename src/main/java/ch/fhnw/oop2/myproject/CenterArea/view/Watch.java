@@ -74,7 +74,7 @@ public class Watch extends Region{
         drawingPane.setMaxSize(PREFERRED_SIZE, PREFERRED_SIZE);
         drawingPane.setMinSize(PREFERRED_SIZE, PREFERRED_SIZE);
         drawingPane.setPrefSize(PREFERRED_SIZE, PREFERRED_SIZE);
-        drawingPane.setStyle("-fx-background-color: #2bca23");
+       // drawingPane.setStyle("-fx-background-color: #2bca23");
     }
 
     private void layoutControls() {
@@ -104,29 +104,7 @@ public class Watch extends Region{
 
 
         TimeUpdatePM tu = new TimeUpdatePM();
-        // Wahl zwischen SBB-Verhalten und normalem Sekundenzeiger-Verhalten:
-        // tu.use(stundenRotation, minutenRotation, sekundenRotation);
         tu.usesbb(stundenRotation, minutenRotation, sekundenRotation);
-
-        /*while (!sbb[0]){
-        }
-        tu.usesbb(stundenRotation, minutenRotation, sekundenRotation);
-        */
-
-        /*
-        this.setOnKeyPressed(event -> {
-            // System.out.println("Key pressed");
-            tu.sbb[0] = true;
-            tu.usesbb(stundenRotation, minutenRotation, sekundenRotation);
-            // geht noch nicht
-        });
-
-        this.setOnMouseClicked(event -> {
-            // System.out.println("Mouse clicked");
-            tu.sbb[0] = true;
-            // tu.usesbb(stundenRotation, minutenRotation, sekundenRotation);
-        });
-        */
 
     }
 
@@ -151,13 +129,6 @@ public class Watch extends Region{
             drawingPane.setScaleY(scalingFactor);
         }
     }
-
-    private void addEventHandlers() {
-    }
-
-    private void addValueChangedListeners() {
-    }
-
     private void addBindings() {
 
     }

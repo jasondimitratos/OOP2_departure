@@ -1,7 +1,5 @@
 package ch.fhnw.oop2.myproject.CenterArea;
 
-import ch.fhnw.oop2.myproject.PM.SelectedDeparturesPM;
-import ch.fhnw.oop2.myproject.PM.alldeparturesPM;
 import javafx.geometry.Insets;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
@@ -10,6 +8,9 @@ import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.RowConstraints;
+
+import ch.fhnw.oop2.myproject.PM.SelectedDeparturesPM;
+import ch.fhnw.oop2.myproject.PM.alldeparturesPM;
 
 
 public class InsertAreaUI extends GridPane {

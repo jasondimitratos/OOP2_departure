@@ -49,14 +49,14 @@ public class TableAreaUI extends SplitPane {
 		nachCol = new TableColumn("nach");
 		gleisCol = new TableColumn("Gleis");
 		VBox watch = new VBox(new Watch(new WatchPM()));
-		watch.setPrefSize(75,75);
-		watch.setMinSize(75,75);
-		watch.setMaxSize(75,75);
-		watch.setStyle("-fx-border-color: #033bff");
+		watch.setPrefSize(90,90);
+		watch.setMinSize(90,90);
+		watch.setMaxSize(90,90);
+
 
 
 		VBox vBox = new VBox(watch, new InsertAreaUI(pm, spm));
-		vBox.setStyle("-fx-border-color: red");
+
 		rechts= vBox;
 
 
